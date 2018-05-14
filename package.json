@@ -1,0 +1,31 @@
+{
+  "name": "fozero-cli",
+  "version": "1.0.2",
+  "description": "A light tool to generate projects in an easy way",
+  "main": "index.js",
+  "bin": {
+    "fozero": "bin/fozero"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fozero/fozero-cli.git"
+  },
+  "keywords": [
+    "fozero"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  "author": "fozero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fozero/fozero-cli/issues"
+  },
+  "homepage": "https://github.com/fozero/fozero-cli#readme"
+}
